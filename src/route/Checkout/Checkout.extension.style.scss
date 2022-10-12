@@ -1,0 +1,11 @@
+.Checkout {
+  &::before {
+    @include after-mobile {
+      content: "";
+      background: var(--breadcrumbs-background);
+      min-height: var(--breadcrumbs-height);
+      display: block;
+      height: 70px;
+    }
+  }
+}
